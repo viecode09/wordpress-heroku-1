@@ -39,7 +39,9 @@
 	"wpackagist-plugin/redis-cache": "1.3.5",
 	"predis/predis": "1.1.1",
 	"humanmade/s3-uploads": "2.0.0-beta3",
-	"wpackagist-plugin/debug-bar": "0.9"
+	"wpackagist-plugin/debug-bar": "0.9",
+	"wpackagist-plugin/cookie-law-info": "1.5.8",
+	"wpackagist-plugin/gdpr-personal-data-reports": "1.0.5",	
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",
@@ -54,14 +56,16 @@
 	  "web/app/mu-plugins/{$name}/": [
 		"wpackagist-plugin/wordfence",
 		"wpackagist-plugin/nginx-helper",
-		"wpackagist-plugin/sendgrid-email-delivery-simplified",
-		"wpackagist-plugin/cookie-law-info",
-		"wpackagist-plugin/gdpr-personal-data-reports",		  
+		"wpackagist-plugin/sendgrid-email-delivery-simplified",	  
 		"humanmade/s3-uploads"
 	  ],
 	  "web/app/plugins/{$name}/": [
+		"type:wordpress-plugin",
 		"wpackagist-plugin/all-in-one-seo-pack",
-		"wpackagist-plugin/debug-bar"
+		"wpackagist-plugin/debug-bar",
+		"wpackagist-plugin/cookie-law-info",
+		"wpackagist-plugin/gdpr-personal-data-reports"
+		
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme"
