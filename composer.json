@@ -59,7 +59,9 @@
 	  ],
 	  "web/app/plugins/{$name}/": [
 		"wpackagist-plugin/all-in-one-seo-pack",
-		"wpackagist-plugin/debug-bar"
+		"wpackagist-plugin/debug-bar",
+		"wpackagist-plugin/cookie-law-info",
+		"wpackagist-plugin/gdpr-personal-data-reports",
 	  ],
 	  "web/app/themes/{$name}/": [
 		"type:wordpress-theme"
