@@ -60,7 +60,6 @@
 		"humanmade/s3-uploads"
 	  ],
 	  "web/app/plugins/{$name}/": [
-		"type:wordpress-plugin",
 		"wpackagist-plugin/all-in-one-seo-pack",
 		"wpackagist-plugin/debug-bar",
 		"wpackagist-plugin/cookie-law-info",
