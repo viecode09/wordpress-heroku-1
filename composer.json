@@ -41,7 +41,12 @@
 	"humanmade/s3-uploads": "2.0.0-beta3",
 	"wpackagist-plugin/debug-bar": "0.9",
 	"wpackagist-plugin/cookie-law-info": "1.5.8",
-	"wpackagist-plugin/gdpr-personal-data-reports": "1.0.5"	
+	"wpackagist-plugin/gdpr-personal-data-reports": "1.0.5",	
+        "wpackagist-theme/apppage": "2.9",
+        "wpackagist-theme/vw-newspaper": "0.2",
+        "wpackagist-theme/clarina": "0.5.9",
+        "wpackagist-theme/parallaxsome": "1.2.6"
+
   },
   "require-dev": {
 	"heroku/heroku-buildpack-php": "*",

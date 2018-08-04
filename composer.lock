@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9ac73f3e2d5ed1b9c0d2873ec4939ce4",
-    "content-hash": "f340ca1c2580cb7be830c8a9e79de71d",
+    "hash": "7b59c5ec6a533d598e8a09dcdf107836",
+    "content-hash": "6602337659e2f20c60a92b78c76a0dbf",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3812,6 +3812,86 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordfence/"
+        },
+        {
+            "name": "wpackagist-theme/apppage",
+            "version": "2.9",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/apppage/",
+                "reference": "2.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/apppage.2.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/apppage/"
+        },
+        {
+            "name": "wpackagist-theme/clarina",
+            "version": "0.5.9",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/clarina/",
+                "reference": "0.5.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/clarina.0.5.9.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/clarina/"
+        },
+        {
+            "name": "wpackagist-theme/parallaxsome",
+            "version": "1.2.6",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/parallaxsome/",
+                "reference": "1.2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/parallaxsome.1.2.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/parallaxsome/"
+        },
+        {
+            "name": "wpackagist-theme/vw-newspaper",
+            "version": "0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/vw-newspaper/",
+                "reference": "0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/vw-newspaper.0.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/vw-newspaper/"
         }
     ],
     "packages-dev": [
