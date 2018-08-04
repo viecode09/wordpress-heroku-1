@@ -67,7 +67,11 @@
 		
 	  ],
 	  "web/app/themes/{$name}/": [
-		"type:wordpress-theme"
+		"type:wordpress-theme",
+                "wpackagist-theme/apppage",
+                "wpackagist-theme/vw-newspaper",
+                "wpackagist-theme/clarina",
+                "wpackagist-theme/parallaxsome"
 	  ]
 	},
 	"dropin-paths": {
